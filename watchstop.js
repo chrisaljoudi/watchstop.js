@@ -25,5 +25,5 @@
 			functionCaller();
 		}
 	};
-	global.WatchStop = WatchStop;
+	global.WatchStop = (global.module || {}).exports = WatchStop;
 })(this);
