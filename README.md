@@ -2,7 +2,7 @@
 ## What is WatchStop?
 A simple, delightful, and fast framerate scheduling agent.
 ## How can I use WatchStop?
-Start by including `watchstop.js` in your JavaScript app. For example, to use WatchStop in the browser, it's a simple `<script>` eembed:
+Start by including `watchstop.js` in your JavaScript app. For example, to use WatchStop in the browser, it's a simple `<script>` embed:
 ```html
 <script src="watchstop.js"></script>
 ```
@@ -24,4 +24,4 @@ WatchStop.fps(foo, 30);
 ## Who made this?
 WatchStop written with care and love by [Chris](https://chrismatic.io/).
 ## License
-See (LICENSE.md)[LICENSE.md]. Enjoy.
+See [LICENSE.md](LICENSE.md). Enjoy.
