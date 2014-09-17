@@ -21,5 +21,5 @@ WatchStop.fps(foo, 30);
 	*/
 ```
 `current.frame` is a zero-indexed frame number, which your function should use to figure out which "frame" (or state) to handle. WatchStop handles skipped frames for you, and guarantees not to run an instance of your function before the previous one is done.
-# Who made this?
-This written with care by [Chris](https://chrismatic.io/").
+## Who made this?
+WatchStop written with care and love by [Chris](https://chrismatic.io/).
