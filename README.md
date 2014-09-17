@@ -15,10 +15,8 @@ function foo(current) {
 	`current.last()` you can call this method to prevent WatchStop from scheduling your function any further
 	*/
 }
+// Schedule `foo` to be run at 30fps.
 WatchStop.fps(foo, 30);
-	/*
-	Schedule `foo` to be run at 30fps.
-	*/
 ```
 `current.frame` is a zero-indexed frame number, which your function should use to figure out which "frame" (or state) to handle. WatchStop handles skipped frames for you, and guarantees not to run an instance of your function before the previous one is done.
 ## Who made this?
