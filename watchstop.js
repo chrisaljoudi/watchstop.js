@@ -23,7 +23,7 @@
 				}
 			};
 			functionCaller();
-		},
+		}
 	};
 	global.WatchStop = WatchStop;
 })(this);
